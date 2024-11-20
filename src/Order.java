@@ -24,6 +24,7 @@ public class Order {
                 System.out.println("Invalid flavor!");
             }
         }
+        System.out.println("Available Toppings:");
         IceCreamShop.toppings.forEach((key, value) -> System.out.println(key + " - $" + value.price));
 
         while (true) {
