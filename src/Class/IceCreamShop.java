@@ -1,3 +1,5 @@
+package Class;
+
 import java.util.Map;
 
 public class IceCreamShop {
